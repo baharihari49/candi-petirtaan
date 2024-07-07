@@ -83,6 +83,9 @@ dan suvenir. Selain itu, mereka juga menjual jerigen dan galon bagi yang ingin m
         "about": {
             "title": "Tentang Kami",
             "desc": `Akses jalan menuju candi dapat ditempuh melalui Trawas dengan melewati lereng Gunung Penanggungan yang berkelok-kelok. Candi Jolotundo terletak di ketinggian sekitar 800 meter di atas permukaan laut (mdpl) di lereng barat Gunung Penanggungan.`
+        },
+        "collection": {
+            "title" : "Koleksi"
         }
     }
 };

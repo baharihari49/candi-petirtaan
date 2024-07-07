@@ -84,6 +84,9 @@ and souvenirs. Apart from that, they also sell jerry cans and gallons for those 
         "about": {
             "title": "About Us",
             "desc": `The access road to the temple can be reached through Trawas by passing the slopes of Mount Penanggungan with winding terrain. Jolotundo Temple is located at an altitude of approximately 800 meters above sea level (masl) on the western slope of Mount Penanggungan.`
+        },
+        "collection": {
+            "title" : "Collection"
         }
     }
 };
