@@ -1,6 +1,10 @@
 import footerImage from '../components/images/svg/Vector.png'; // Pastikan path ke gambar footerImage sudah benar
+import { useTranslation } from 'react-i18next';
 
 export const Footer = () => {
+
+  const { t } = useTranslation();
+
   return (
     <footer
       className="relative overflow-hidden pt-96 xl:pt-40 bg-[#F2E0C8]"
@@ -14,18 +18,17 @@ export const Footer = () => {
           {/* Column 1: Alamat / Address */}
           <div className="space-y-8">
             <h3 className="text-sm font-semibold leading-6 text-gray-300">
-              Alamat / Address
+             {t("footer.address.title")}
             </h3>
             <p className="text-sm leading-6 text-gray-300">
-              Area Hutan, Hutan, Kec. Trawas, Kabupaten Mojokerto, Jawa Timur
-              61375
+              {t("footer.address.address")}
             </p>
           </div>
 
           {/* Column 2: Media Social / Social Media */}
           <div className="space-y-8">
             <h3 className="text-sm font-semibold leading-6 text-gray-300">
-              Media Social / Social Media
+              {t("footer.mediaSocial.title")}
             </h3>
             <div className="flex flex-col space-y-2">
               <a
@@ -52,13 +55,10 @@ export const Footer = () => {
           {/* Column 3: Hubungi Kami / Contact Us */}
           <div className="space-y-8">
             <h3 className="text-sm font-semibold leading-6 text-gray-300">
-              Hubungi Kami / Contact Us
+              {t("footer.contactUs.title")}
             </h3>
             <p className="text-sm leading-6 text-gray-300">
-              Balai Pelestarian Kebudayaan Wilayah XI, Direktorat Jenderal
-              Kebudayaan Republik Indonesia Jl. Majapahit No. 141-143, Trowulan,
-              Mojokerto, Jawa Timur. Email: bpk.wil11@kemendikbud.go.id,
-              purbakala.jatim@yahoo.com Telepon/ Fax: (0321)495515
+              {t("footer.contactUs.content")}
             </p>
           </div>
         </div>

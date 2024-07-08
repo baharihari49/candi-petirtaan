@@ -3,6 +3,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import Lightbox, { SlideImage } from "yet-another-react-lightbox";
 import Inline from "yet-another-react-lightbox/plugins/inline";
+import fotoCungkup from "../components/images/cungkup.jpg"
 
 export const Photo = () => {
   const { t } = useTranslation();
@@ -29,7 +30,7 @@ export const Photo = () => {
       width: 384,
     },
     {
-      src: "https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/cungkup.jpg",
+      src: fotoCungkup,
       height: 256,
       width: 384,
     },

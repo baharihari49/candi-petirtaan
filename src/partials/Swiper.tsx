@@ -5,15 +5,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import image1 from '../components/images/1.png'
-import image2 from '../components/images/2.png'
-import image3 from '../components/images/3.png'
-import image4 from '../components/images/4.png'
-import image5 from '../components/images/5.png'
-import image6 from '../components/images/6.png'
-import image7 from '../components/images/7.png'
-import image8 from '../components/images/8.png'
-import image9 from '../components/images/9.png'
-import image10 from '../components/images/10.png'
+import image2 from '../components/images/2.jpg'
+import image3 from '../components/images/3.jpg'
+import image4 from '../components/images/4.jpg'
+import image5 from '../components/images/5.jpg'
 
 // import './styles.css';
 
@@ -38,21 +33,6 @@ export default function SwiperComponents() {
         </SwiperSlide>
         <SwiperSlide>
           <img src={image5} alt="Slide 1" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={image6} alt="Slide 1" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={image7} alt="Slide 1" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={image8} alt="Slide 1" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={image9} alt="Slide 1" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={image10} alt="Slide 1" />
         </SwiperSlide>
       </Swiper>
     </>

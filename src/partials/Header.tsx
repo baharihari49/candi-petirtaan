@@ -43,7 +43,7 @@ export const Header = () => {
                         </a>
                     ))}
                 </div>
-                <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+                <div className="lg:flex lg:flex-1 lg:justify-end">
                     <DropdownMenu>
                         <DropdownMenuTrigger asChild>
                             <Button variant="outline" className="flex items-center gap-2 bg-[#3C381E] hover:bg-[#171F13]">
