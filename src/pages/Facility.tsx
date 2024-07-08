@@ -22,7 +22,6 @@ import imageFoodcort2 from "../components/images/foodcourt/Gambar WhatsApp 2024-
 import imageFoodcort3 from "../components/images/foodcourt/foodcourtEdit.jpg"
 
 
-
 export const Facility = () => {
   const { t } = useTranslation();
   const [facility, setFacility] = useState<string>("facility.toilet");
